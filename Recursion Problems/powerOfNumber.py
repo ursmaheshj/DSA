@@ -1,7 +1,7 @@
 #Finding power/Exponential of a given number
 
 def power(base,exp):
-    assert int(exp)==exp,"Exponential must be an positive integer only"
+    assert int(exp)==exp,"Exponential must be an integer only"
     if exp ==0:
         return 1
     elif exp<0:
