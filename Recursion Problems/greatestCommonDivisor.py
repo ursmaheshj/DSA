@@ -11,4 +11,4 @@ def GCD(a,b):
     else:
         return GCD(b,a%b)
 
-print(GCD(18,48))
+print(GCD(18,4.8))
