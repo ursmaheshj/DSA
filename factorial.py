@@ -1,3 +1,5 @@
+#To find out the factorial of a given number
+
 def factorial(n):
     assert n>=0 and int(n)==n,"Enter a positive no"
     if n in [0,1]:
